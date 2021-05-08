@@ -1,0 +1,12 @@
+#map {
+    position: relative;
+    width:50%;
+    height: 600px;
+  }
+
+#mainpageLink{
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    font-weight: 200;
+}

@@ -1,0 +1,238 @@
+body {
+  font-family: sans-serif;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.controls, .results {
+  flex: 1;
+  padding: 10px;
+}
+
+form p:nth-of-type(1) {
+  margin-top: 0;
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:rgb(175, 83, 214);
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+article p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+article p:nth-of-type(2) {
+  font-size: 14px;
+  line-height: 2;
+}
+
+nav {
+  margin-bottom: 50px;
+}
+
+.prev {
+  float: left;
+}
+
+.next {
+  float: right;
+}
+
+article {
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+}
+
+img {
+  float: right;
+  margin-left: 20px;
+  max-width: 200px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+span {
+  background-color: #ccc;
+  padding: 5px;
+  margin: 5px;
+}
+
+#label{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: darkslategray;
+  font-weight: 200;
+}
+
+.submit {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.submit:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.controls{
+
+  margin: auto;
+  width: 50%;
+}
+
+.rectangle{
+
+  height: 100px;
+  width: 50px;
+  background-color: rgb(247, 243, 243);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 300;
+  display:inline-flex;
+  margin-left: 10px;
+  margin-top: 10px;
+
+}
+
+#dealerSum{
+
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  color: chocolate;
+  font-size:xx-large;
+}
+
+#clientSum{
+
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  color: chocolate;
+  font-size:xx-large;
+}
+
+#clientCards{
+
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+#dealerCards{
+
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+.hit {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+  display:inline-flex;
+}
+
+.hit:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.stand {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+  display:inline-flex;
+}
+
+.stand:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.reset {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+  display:inline-flex;
+}
+
+.reset:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.buttons{
+
+  margin: auto;
+  width: 50%;
+  margin-top: 10px;
+
+}
+
+.autocomplete{
+
+  margin: auto;
+  width: 50%;
+  margin-top: 10px;
+}
+
+.changeA{
+
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+  display:inline-flex;
+
+}
+
+.changeA:hover{
+  background-color: #4CAF50;
+  color: white;
+
+}
+
+#message{
+
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:red;
+  font-size: xx-large;
+  font-weight: 100  ;
+}
+
+#maplink{
+
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: x-large;
+  font-weight: 200;
+}
+
+#rule{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: medium;
+  font-weight: 100;
+}
+
+#cities{
+  margin-top: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: medium;
+
+}
+
+  

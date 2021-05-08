@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ckz final project</title>
+    <link href="nytimes.css" rel="stylesheet"></link>
+
+
+
+</head>
+
+<body>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <div id ="maplink"><a href="map.html">map</a></div>
+    <div class="third party apis">
+        <div id="nytimes" content="width=device-width, initial-scale=1.0">
+
+        <h1>NY Times article search API</h1>
+
+        <div class="wrapper">
+
+            <div class="controls">
+                <form>
+                    <p>
+                        <label for="search" id = "label">Enter a SINGLE search term (required):</label>
+                        <input type="text" id="search" class="search" required>
+                    </p>
+                    
+                    <p>
+                        <button class="submit">Submit search</button>
+                    </p>
+                </form>
+            </div>
+
+            <div class="results">
+                <section content="width=device-width, initial-scale=1.0">
+                </section>
+            </div>
+
+        </div>
+
+        <script src="nytimes.js"></script>
+
+    </div>
+    </div>
+
+    <h1>You can play a simple Black Jack here</h1>
+    <div id="root"></div>
+    <div id ="rule">
+        Rules:
+        <ul>1. Initially, you and dealer both will have two cards.</ul>
+        <ul>2. You can choose to hit(get a new card) or stand(finish your turn and wait the dealer's result).</ul>
+        <ul>3. If you choose to hit and your sum is Greater then 21, you loss.</ul>
+        <ul>4. If you choose to stand, dealer will hit until dealer's sum is greater than 16. </ul>
+        <ul>5. If dealer's sum is less than your sum, or dealer's sum is greater than 21, you win.</ul>
+        <ul>6. You can change A's value by clicking the button. A's value can be 1 or 11.</ul>
+    </div>
+    <script src = "node_modules/jquery/dist/jquery.js"></script>
+    <script src = "render.js" type="module"></script>
+
+    <h1>Autocomplete field</h1>
+    <form autocomplete="off">
+        <div class="autocomplete" style="width:300px;">
+          <input id="myInput" type="text" name="cities" placeholder="Cities" size = 30>
+        </div>
+      </form>
+    <script src = "auto.js"></script>
+    <div id = "cities">These are the cities stored in the data list:"Guangzhou", "Beijing", "Shanghai", "New York", "Cleveland", "Boston", "London", "Paris", "Seattle","Los Angles","Washington" </div>
+</body>
+
+</html>
