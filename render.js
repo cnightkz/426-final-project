@@ -126,8 +126,10 @@ export const load = function (game) {
             if (game.dealerWon) {
                 let obj = $("#message");
                 obj.html(`<div id = "message">Your sum is less than dealer's number. You lose.</div>`);
-            } else {
-                let obj = $("message");
+            } 
+            
+            if(game.clientWon){
+                let obj = $("#message");
                 obj.html(`<div id = "message">Your sum is larger than dealer's number. You win.</div>`);
 
             }
